@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f2f3f4;
+}
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 96%;
+  margin: 0px auto;
+}
+.main_btn {
+  background-color: red;
+  padding: 8px 11px;
+  margin: 16px 0px;
+  color: white;
+  font-size: 1.3em;
+  cursor: pointer;
+  border-radius: 3px;
+}
+#hero {
+  margin-bottom: 30px;
+}
+.hero_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  padding: 15px;
+  background-color: black;
+  border-radius: 15px;
+}
+.hero_heading {
+  width: 35%;
+  margin-right: 60px;
+}
+
+.hero_heading h1,
+p {
+  color: white;
+  margin-top: 20px;
+}
+
+.main_content {
+  display: flex;
+}
+.notification_area {
+  width: 220px;
+  height: 180px;
+  background-color: black;
+  font-weight: 600;
+  margin-right: 20px;
+  border-radius: 4px;
+}
+.notification_area a {
+  background-color: #ecf0f1;
+  color: black;
+  width: 120px;
+  padding: 8px 12px;
+  margin: 10px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 3px;
+}
+
+.notification_area a:hover {
+  background-color: red;
+}
+.news_area {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.news_card {
+  width: 300px;
+  height: auto;
+  padding: 7px;
+  box-shadow: 7px 14px 30px #f4f6f7;
+}
+
+.news_card img {
+  width: 100%;
+}
+.news_card p {
+  color: black;
+  font-weight: bold;
+}
+.transfer_btn {
+  padding: 5px 10px;
+  cursor: pointer;
+  font-style: 1.1em;
+}
+.transfer_btn :hover {
+  background-color: gray;
+}
+footer {
+  margin-top: 40px;
+}
+.footer_area {
+  height: 350px;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.footer_content {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+}
+.footer_content h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid white;
+}
+.important_links {
+  display: flex;
+  margin-right: 20px;
+}
+.important_links p {
+  margin-right: 20px;
+  padding: 10px;
+}
+.important_links a {
+  text-decoration: none;
+  color: white;
+}
+.footer_area h4 {
+  color: white;
+  position: absolute;
+  right: 0;
+  left: 540px;
+  padding: 20px;
+  bottom: 0;
+  margin: auto;
+}
